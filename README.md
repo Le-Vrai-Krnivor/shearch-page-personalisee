@@ -24,11 +24,7 @@ Une interface de recherche élégante et minimaliste qui utilise Startpage comme
 
 ## 📥 Installation
 
-1. Clonez le repository :
+## Clonez le repository :
 ```bash
 git clone https://github.com/Le-Vrai-Krnivor/shearch-page-personalisee.git
 ```
-
-2. Ouvrez `index.html` dans votre navigateur préféré.
-
-## ⚙️ Personnalisation
