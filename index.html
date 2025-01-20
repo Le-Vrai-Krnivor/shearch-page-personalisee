@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Accueil</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url('arriere-plan.jpg');
+            background-size: cover;
+            background-position: center;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+        }
+
+        .signature {
+            position: fixed;
+            top: 20px;
+            left: 30px;
+            color: #fff;
+            font-size: 1.2rem;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            opacity: 0.9;
+            transition: opacity 0.3s ease;
+        }
+
+        .signature:hover {
+            opacity: 1;
+        }
+
+        .input {
+            color: #fff;
+            font-size: 0.9rem;
+            background-color: transparent;
+            width: 100%;
+            box-sizing: border-box;
+            padding-inline: 0.5em;
+            padding-block: 0.7em;
+            border: none;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .input-border {
+            position: absolute;
+            width: 0%;
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            transition: width 0.3s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+        }
+
+        .input:focus {
+            outline: none;
+        }
+
+        .input:focus+.input-border {
+            width: 100%;
+        }
+
+        .form-control {
+            position: relative;
+            width: 300px;
+        }
+
+        .input-alt {
+            font-size: 1.2rem;
+            padding-inline: 1em;
+            padding-block: 0.8em;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .input-border-alt {
+            height: 3px;
+            background: linear-gradient(90deg, #FF6464 0%, #FFBF59 50%, #47C9FF 100%);
+            transition: width 0.4s cubic-bezier(0.42, 0, 0.58, 1.00);
+        }
+
+        .input-alt:focus+.input-border-alt {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="signature">By Krnivor</div>
+    <div class="form-control">
+        <form action="https://www.startpage.com/sp/search" method="get">
+            <input class="input input-alt" name="q" placeholder="Rechercher" required type="text">
+            <span class="input-border input-border-alt"></span>
+        </form>
+    </div>
+</body>
+
+</html>
