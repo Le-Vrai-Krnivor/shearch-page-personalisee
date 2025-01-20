@@ -28,3 +28,5 @@ Une interface de recherche élégante et minimaliste qui utilise Startpage comme
 ```bash
 git clone https://github.com/Le-Vrai-Krnivor/shearch-page-personalisee.git
 ```
+
+## Crédit : Krnivor
