@@ -1,6 +1,6 @@
 # 🔍 Startpage Search Interface
 
-![Interface de recherche](capture.png)
+![Interface de recherche](Capture.png)
 
 ## 📝 Description
 
@@ -26,7 +26,7 @@ Une interface de recherche élégante et minimaliste qui utilise Startpage comme
 
 1. Clonez le repository :
 ```bash
-git clone https://github.com/Krnivor/startpage-search.git
+git clone https://github.com/Le-Vrai-Krnivor/shearch-page-personalisee.git
 ```
 
 2. Ouvrez `index.html` dans votre navigateur préféré.
