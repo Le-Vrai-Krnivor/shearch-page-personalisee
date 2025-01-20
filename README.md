@@ -1,6 +1,6 @@
 # 🔍 Startpage Search Interface
 
-![Interface de recherche](Capture.png)
+![Interface de recherche](https://github.com/Le-Vrai-Krnivor/shearch-page-personalisee/blob/main/Capture.PNG)
 
 ## 📝 Description
 
